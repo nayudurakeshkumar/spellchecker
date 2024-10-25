@@ -5,7 +5,7 @@ headers = {
     'accept': 'application/json'
 }
 params = {
-    'text': 'Helo. How ar yu?'
+    'text': 'Heelo. How ar yu?'
 }
 
 response = requests.post(url, headers=headers, data=json.dumps(params))
